@@ -1,0 +1,190 @@
+@media screen and (max-width: 1661px) {
+    .client_section .review-background::after{
+        right: -5%;
+    }
+    .client_section .review-background::before {
+        right: -5%;
+    }
+}
+@media screen and (max-width: 1280px) {
+    .client_section .review-background::before {
+        top: -5%;
+    }
+    .home-slider .carousel-caption h1 {
+        font-size: 57px;
+        padding-top: 6px;
+    }
+    h2{
+        font-size: 25px;
+    }
+    h3{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .talk_section .talk_inner_details h1 {
+        font-size: 35px;
+    }
+    .contact_section span {
+        font-size: 250px;
+        font-weight: 600;
+        letter-spacing: 10px;
+        color: #ffffff;
+    }
+}
+@media screen and (max-width: 991px) {
+    .annoucment-bar{
+        display: none;
+    }
+    .home-slider .carousel-caption h5 {
+        font-size: 20px;
+        line-height: 27px;
+    }
+    .home-slider .carousel-caption h1 {
+        font-size: 40px;
+        padding-top: 6px;
+    }
+    h2{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    h5{
+        font-size: 15px;
+    }
+    .about_our_works .about_card {
+        padding: 10px 10px;
+    }
+    .client_section .review-background::before {
+        position: absolute;
+        content: "";
+        top: 0%;
+        right: -5%;
+        width: 100%;
+        max-width: 55%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-image: url(../images/review_top.jpg);
+        z-index: 9;
+    }
+    .navbar-collapse{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #ffffff;
+        z-index: 9;
+        padding: 16px 32px;
+    }
+    .navbar-collapse .navbar-nav .nav-item{
+        background-color: #f1f1f1;
+        padding: 6px 16px;
+
+    }
+    .navbar-collapse ul:last-child .nav-item{
+        /* background-color: #f1f1f1; */
+        padding: 6px 16px;
+        max-width: max-content;
+    }
+    .client_section .review-background::after {
+        position: absolute;
+        content: "";
+        top: 0%;
+        right: -5%;
+        width: 100%;
+        max-width: 55%;
+        height: 100%;
+        background-color: var(--secondary);
+        z-index: -99;
+    }
+    .dana_wood_works .dana_wood_works_images{
+        width: 100%;
+        height: 400px;
+    }
+    .dana_wood_works .dana_wood_works_images img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .why_choose_us  .why_choose_us_image{
+        width: 100%;
+        height: 400px;
+    }
+    .why_choose_us  .why_choose_us_image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .contact_section span {
+        font-size: 130px;
+    }
+    .contact_section .row {
+        margin-top: 0px;
+    }
+}
+@media screen and (max-width: 520px) {
+    .home-slider .carousel-caption h1 {
+        font-size: 35px;
+        padding-top: 6px;
+    } 
+    .home-slider .carousel-caption {
+        position: absolute;
+        width: 100%;
+        max-width: 80%;
+        bottom: 30%;
+    }
+    .home-slider .circle_banner {
+        width: 100px;
+        height: 100px;
+        background-color: var(--secondary);
+        position: absolute;
+        top: 3%;
+        left: -5%;
+        border-radius: 75px;
+        z-index: -1;
+    }
+    .bellow-banner-section .bottom_icon .iconify {
+        bottom: -1%;
+        left: 42%;
+    }
+    .client_section .review-background::before {
+        display: none;
+    }
+    .client_section .review-background::after{
+        display: none;
+    }
+    header .call-free a{
+        font-size: 13px !important;
+    }
+    .navbar-collapse ul:last-child .nav-item {
+        padding: 6px 1px;
+    }
+    .dana_wood_works .free-estimate_button{
+        text-align: center;
+    }
+    .dana_wood_works .free-estimate_button .give_call a{
+        padding: 10px 20px;        
+    }
+    .dana_wood_works .free-estimate_button .free-estimate a{
+        padding: 10px 20px;
+    }
+    .dana_wood_works button {
+        font-size: 15px;
+    }
+    .contact_section span {
+        font-size: 80px;
+    }
+    .contact_section .row {
+        margin-top: 0px;
+    }
+    .custom_kitchen .free-estimate_button .give_call a{
+        padding: 13px 25px;
+    }
+    .custom_kitchen .free-estimate_button .free-estimate a{
+        padding: 13px 25px;
+    }
+}
